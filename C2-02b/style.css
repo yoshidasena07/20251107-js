@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+h1 {
+    background: #f66;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1em;
+    margin: 1em;
+    transition: background 1s, font-size 2s;
+}
+
+h1:hover {
+    background: #fc2;
+    font-size: 2rem;
+    color: #000;
+}

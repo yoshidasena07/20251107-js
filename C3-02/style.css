@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+button {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+
+.fade-button {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #0bd;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+.fade-button-color {
+    background-color: #05b;
+}
+
+/* クリックで変化 */
+#fade-button-js {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #07f;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}

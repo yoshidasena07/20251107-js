@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+div {
+    background: #0bd;
+    height: 300px;
+    padding: 1rem;
+    animation-name: gradient-box;
+    animation-duration: 10s;
+}
+
+@keyframes gradient-box {
+    0% {
+        background: #fc4;
+    }
+    50% {
+        background: #4ca;
+    }
+    100% {
+        background: #0bd;
+    }
+}

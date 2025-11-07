@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.new {
+    color: #fff;
+    background: #0bd;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    animation-name: new-animation;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+}
+
+@keyframes new-animation {
+    0%,
+    50%,
+    100% {
+        top: 0;
+    }
+    25% {
+        top: -12px;
+    }
+    75% 
+    {
+        top: -8px;
+    }
+}
